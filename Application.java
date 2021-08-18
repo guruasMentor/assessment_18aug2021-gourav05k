@@ -23,7 +23,7 @@ public class Application {
 		System.out.println("Enter Player Category: ");
 		p.setCategory(scn.next());
 		
-		System.out.println("Enter Salary: ");
+		System.out.println("Enter Ranking: ");
 		p.setRanking(scn.nextInt());
 		
 		imp.addPlayer(p);
