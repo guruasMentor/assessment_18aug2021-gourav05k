@@ -41,5 +41,10 @@ public class Player {
 		this.ranking = ranking;
 	}
 
+	public int getPlayer() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 	
 }

@@ -17,12 +17,22 @@ public class Player_Repository implements PlayerInterface{
 	@Override
 	public void addPlayer(Player p) {
 		// TODO Auto-generated method stub
-		
+		player[cntPlayer]=p;
+		cntPlayer++;
 	}
 
 	@Override
 	public Player getPlayer(int ranking) {
 		// TODO Auto-generated method stub
+		for(int i=0; i<cntPlayer;i++) {
+			
+			if(player[i].getPlayer()== ranking) {
+				
+				return player[i];
+			}
+		}
+		
+		return null;
 		return null;
 	}
 	
