@@ -20,7 +20,7 @@ public class Application {
 		p.setName(scn.next());
 		
 		
-		System.out.println("Enter Employee city: ");
+		System.out.println("Enter Player Category: ");
 		p.setCategory(scn.next());
 		
 		System.out.println("Enter Salary: ");
