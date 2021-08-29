@@ -8,6 +8,9 @@ import com.storage.StorageFactory;
 
 public class Application {
 
+    // Mentor Comment: Form Team Functionality is not found anywhere
+
+
 	private PlayerInterface imp = StorageFactory.getStorage();
 	
 	public void acceptPlayerDetailsAndStore() {
@@ -18,13 +21,17 @@ public class Application {
 		
 		System.out.println("Enter Player Name: ");
 		p.setName(scn.next());
+
+		//Mentor Comment : Validation for Name?
 		
 		
 		System.out.println("Enter Player Category: ");
 		p.setCategory(scn.next());
+		//Mentor Comment : Validation for Category?
 		
 		System.out.println("Enter Ranking: ");
 		p.setRanking(scn.nextInt());
+		//Mentor Comment : Validation for Ranking?
 		
 		imp.addPlayer(p);
 	}
